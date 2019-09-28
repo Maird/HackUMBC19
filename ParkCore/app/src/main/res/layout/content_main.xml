@@ -5,15 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".MainActivity"
-<<<<<<< HEAD
-    tools:showIn="@layout/activity_main"
-    android:background="@drawable/roadimage">
-
-=======
-    tools:showIn="@layout/activity_main">
-    //android:background="@drawable/roadimage">
->>>>>>> feb753b92bc27760aff6573342c3c16677630359
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView3"
