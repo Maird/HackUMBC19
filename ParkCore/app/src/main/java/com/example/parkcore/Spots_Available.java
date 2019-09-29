@@ -14,7 +14,7 @@ public class Spots_Available extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_destination);
+        setContentView(R.layout.activity_spots__available);
 
         button3 = findViewById(R.id.button3);
         button3.setOnClickListener(new View.OnClickListener() {
