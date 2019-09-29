@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ParkingSpot">
+    tools:context=".ParkingSpot"
+    android:background="#0e4d92">
 
     <TextView
         android:id="@+id/textView12"
@@ -17,6 +18,7 @@
         android:layout_marginRight="72dp"
         android:layout_marginBottom="630dp"
         android:text="Here's Your Spot"
+        android:textColor="#fdc12a"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,6 +51,7 @@
         android:layout_marginEnd="136dp"
         android:layout_marginRight="136dp"
         android:text="Location:"
+        android:textColor="#fdc12a"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -66,6 +69,7 @@
         android:layout_marginRight="111dp"
         android:layout_marginBottom="17dp"
         android:text="39.2557° N, 76.7110° W"
+        android:textColor="#fdc12a"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/mapslink"
         app:layout_constraintEnd_toEndOf="parent"
