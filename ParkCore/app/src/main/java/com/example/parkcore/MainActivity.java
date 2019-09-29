@@ -1,5 +1,6 @@
 package com.example.parkcore;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -11,15 +12,32 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 //Test commit - Matt
 
 public class MainActivity extends AppCompatActivity {
 
+    private Button button;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        button = findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openDestination();
+
+            }
+        });
+    }
+
+    public void openDestination() {
+        Intent intent = new Intent(this, Destination.class);
+        startActivity(intent);
     }
 
     @Override
