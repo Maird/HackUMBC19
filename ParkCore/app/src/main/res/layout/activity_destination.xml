@@ -20,15 +20,16 @@
         android:layout_marginRight="32dp"
         android:layout_marginBottom="669dp"
         android:text="DESTINATION"
-        android:textColor="#F50A0A0A"
+        android:textColor="#fcd12a"
         android:textSize="36sp"
+        android:textStyle="bold"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.245" />
+        app:layout_constraintVertical_bias="0.306" />
 
     <EditText
         android:id="@+id/editText2"
@@ -57,12 +58,15 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="383dp"
-        android:text="handicap parking needed?"
+        android:text="Handicap parking needed?"
+        android:background="@drawable/border"
+        android:textColor="#fdc12a"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
 
     <CheckBox
         android:id="@+id/checkBoxYes"
@@ -109,10 +113,12 @@
         android:layout_marginRight="78dp"
         android:layout_marginBottom="163dp"
         android:text="Find Me Parking!"
+        android:textColor="#000000"
         android:textSize="18sp"
+        android:background="@drawable/roundedbutton2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
