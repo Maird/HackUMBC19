@@ -7,14 +7,25 @@
     tools:context=".Spots_Available">
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="372dp">
+        android:id="@+id/scrollView2"
+        android:layout_width="406dp"
+        android:layout_height="629dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="102dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" />
     </ScrollView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="336dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="28dp"
+        android:text="Parking spaces found!"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="37dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
