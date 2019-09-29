@@ -12,12 +12,13 @@
         android:layout_height="73dp"
         android:layout_marginStart="53dp"
         android:layout_marginLeft="53dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="48dp"
         android:layout_marginRight="48dp"
         android:text="Parking spaces found!"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
